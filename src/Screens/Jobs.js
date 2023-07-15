@@ -43,7 +43,7 @@ const Jobs = () => {
         }}
       >
         <img className="job-logo" src={img1} alt="" />
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",
@@ -252,7 +252,7 @@ const Jobs = () => {
       >
         <img className="job-logo" src={img2} alt="" />
         {/* title name, description */}
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",
@@ -385,7 +385,7 @@ const Jobs = () => {
       >
         <img className="job-logo" src={img3} alt="" />
         {/* title name, description */}
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",
@@ -518,7 +518,7 @@ const Jobs = () => {
       >
         <img className="job-logo" src={img4} alt="" />
         {/* title name, description */}
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",
@@ -651,7 +651,7 @@ const Jobs = () => {
       >
         <img className="job-logo" src={img5} alt="" />
         {/* title name, description */}
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",
@@ -783,7 +783,7 @@ const Jobs = () => {
         }}
       >
         <img className="job-logo" src={img6} alt="" />
-        <div className="job-name">
+        <div className="job-names">
           <div
             style={{
               color: "black",

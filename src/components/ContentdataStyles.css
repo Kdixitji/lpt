@@ -1,0 +1,87 @@
+.job-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  margin-left: 25px;
+  padding: 25px;
+}
+
+.job-image {
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.bookmark {
+  padding: 3px;
+}
+
+.job-name {
+  display: flex;
+  flex-direction: row;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 5px;
+}
+
+.job-date {
+  color: #c4c4c4;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.post {
+  color: #9fa2b4;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.job-status {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.dot {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  gap: 0.2px;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  color: yellow;
+  border-radius: 50px;
+  margin-left: 80px;
+}
+
+.menu {
+  margin-top: 10px;
+  margin-left: 35px;
+}

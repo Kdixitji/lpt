@@ -1,0 +1,175 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8fe;
+  width: 91.7%;
+  height: auto;
+  margin-left: 110px;
+  margin-top: -624px;
+}
+
+.left-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-search-box input {
+  background-color: #ffffff;
+  opacity: 0.5;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15.239px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+  width: 380px;
+}
+
+.left-location-box input {
+  background-color: #ffffff;
+  opacity: 0.5;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15.239px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  width: 80px;
+}
+.left-filter-box input {
+  background-color: #ffffff;
+  opacity: 0.5;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15.239px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  width: 60px;
+}
+
+.left-search-box .button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 18px;
+  width: 22.73px;
+  height: 23.242px;
+  transform: rotate(10deg);
+  flex-shrink: 0;
+}
+
+.left-location-box .button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 18px;
+  width: 22.73px;
+  height: 23.242px;
+  flex-shrink: 0;
+}
+
+.left-filter-box .button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 22.73px;
+  height: 23.242px;
+  flex-shrink: 0;
+}
+
+/* Optional: Additional styling for the search box container */
+.left-search-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 12px;
+  width: 400px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: -10px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left-location-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 12px;
+  width: 190px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: -10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left-filter-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 12px;
+  width: 150px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: -10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ui {
+  padding: 15px;
+}
+.ui-btn {
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 1.5px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 127.059px;
+  height: 42.353px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.my-job {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-job-status {
+  margin-left: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-job-status .stat-text {
+  margin-left: 35px;
+}
+
+.my-job-title {
+  margin: 10px;
+}

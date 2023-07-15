@@ -1,0 +1,33 @@
+.job {
+  margin: 10px;
+  padding: 10px;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  margin: 5px;
+}
+
+.job-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: -90px;
+}
+
+.question {
+  margin-right: 1px;
+}
+
+.status,
+.status-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.status-text {
+  margin-left: 20px;
+}

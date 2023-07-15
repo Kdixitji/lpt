@@ -1,5 +1,5 @@
 .job {
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
 }
 
@@ -12,7 +12,7 @@
   margin: 5px;
 }
 
-.job-name {
+.job-names {
   display: flex;
   flex-direction: column;
   margin-left: -90px;

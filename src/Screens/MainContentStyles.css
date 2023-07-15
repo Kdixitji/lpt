@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #f9f8fe;
   width: 91.7%;
   height: auto;
@@ -147,6 +147,7 @@
   height: 42.353px;
   margin-left: 10px;
   cursor: pointer;
+  border: none;
 }
 
 .flex-container {
@@ -172,4 +173,53 @@
 
 .my-job-title {
   margin: 10px;
+}
+
+.right {
+  margin-top: 50px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boximage {
+  padding: 15px;
+  margin-left: 30px;
+}
+
+.box-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+  align-items: center;
+}
+
+.box-event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.line {
+  margin: 10px 15px;
+}
+
+.box-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box2-event {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.box2content {
+  justify-content: center;
+  align-items: center;
 }

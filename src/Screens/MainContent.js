@@ -3,6 +3,10 @@ import "./MainContentStyles.css";
 import { PiNumberCircleFiveFill } from "react-icons/pi";
 import { BsFilter } from "react-icons/bs";
 import Jobs from "./Jobs";
+import box from "./images/image 40.png";
+import img1 from "./images/pesto.png";
+import img2 from "./images/Rectangle 302 (1).png";
+import img3 from "./images/Rectangle 312.png";
 
 const MainContent = () => {
   return (
@@ -356,7 +360,479 @@ const MainContent = () => {
         </div>
         <Jobs />
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div
+          className="box1"
+          style={{
+            width: 325,
+            height: 447,
+            background: "white",
+            borderRadius: 15,
+          }}
+        >
+          <img src={box} alt="box" className="boximage" />
+          <div className="box-head">
+            <h3>Suggested Sessions</h3>
+            <p>See all</p>
+          </div>
+          <div className="box-event">
+            <div className="event-name">
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 15,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                Mock Interview
+              </div>
+              <div
+                style={{
+                  opacity: 0.5,
+                  color: "black",
+                  fontSize: 10,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                24th August , 2022
+              </div>
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 14,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                (9:00 AM - 11:00 AM)
+              </div>
+            </div>
+            <div
+              style={{
+                width: 80.88,
+                height: 24.87,
+                background:
+                  "linear-gradient(95deg, rgba(253.94, 178.09, 123.17, 0.70) 0%, rgba(248.63, 190.94, 149.18, 0.89) 100%)",
+                boxShadow: "0px 2px 4.651198387145996px rgba(0, 0, 0, 0.25)",
+                borderRadius: 4.65,
+              }}
+            >
+              Enrol Now
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              width: 277.42,
+              height: 0,
+              opacity: 0.5,
+              border: "0.50px #D2CECE solid",
+            }}
+          ></div>
+          <div className="box-event">
+            <div className="event-name">
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 15,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                Portfolio Presentation
+              </div>
+              <div
+                style={{
+                  opacity: 0.5,
+                  color: "black",
+                  fontSize: 10,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                10th September, 2022
+              </div>
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 14,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                (12:00 AM - 2:00 AM)
+              </div>
+            </div>
+            <div
+              style={{
+                width: 80.88,
+                height: 24.87,
+                background:
+                  "linear-gradient(95deg, rgba(253.94, 178.09, 123.17, 0.70) 0%, rgba(248.63, 190.94, 149.18, 0.89) 100%)",
+                boxShadow: "0px 2px 4.651198387145996px rgba(0, 0, 0, 0.25)",
+                borderRadius: 4.65,
+              }}
+            >
+              Enrol Now
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              width: 277.42,
+              height: 0,
+              opacity: 0.5,
+              border: "0.50px #D2CECE solid",
+            }}
+          ></div>
+          <div className="box-event">
+            <div className="event-name">
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 15,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                Technical Round
+              </div>
+              <div
+                style={{
+                  opacity: 0.5,
+                  color: "black",
+                  fontSize: 10,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                10th September , 2022
+              </div>
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 14,
+                  fontFamily: "SF Pro Display",
+                  fontWeight: "500",
+                  wordWrap: "break-word",
+                }}
+              >
+                (12:00 AM - 2:00 AM)
+              </div>
+            </div>
+            <div
+              style={{
+                width: 80.88,
+                height: 24.87,
+                background:
+                  "linear-gradient(95deg, rgba(253.94, 178.09, 123.17, 0.70) 0%, rgba(248.63, 190.94, 149.18, 0.89) 100%)",
+                boxShadow: "0px 2px 4.651198387145996px rgba(0, 0, 0, 0.25)",
+                borderRadius: 4.65,
+              }}
+            >
+              Enrol Now
+            </div>
+          </div>
+        </div>
+        <div className="box-heading">
+          <div
+            style={{
+              color: "black",
+              fontSize: 22.6,
+              fontFamily: "Poppins",
+              fontWeight: "600",
+              wordWrap: "break-word",
+            }}
+          >
+            Upcoming Events
+          </div>
+          <div style={{ width: 5.66, height: 18.77, position: "relative" }}>
+            <div
+              style={{
+                width: 5.66,
+                height: 18.77,
+                left: 0,
+                top: 0,
+                position: "absolute",
+              }}
+            >
+              <div
+                style={{
+                  width: 5.66,
+                  height: 5.66,
+                  left: 0,
+                  top: 0,
+                  position: "absolute",
+                  background: "black",
+                  borderRadius: 9999,
+                }}
+              />
+              <div
+                style={{
+                  width: 5.66,
+                  height: 5.66,
+                  left: 0,
+                  top: 6.55,
+                  position: "absolute",
+                  background: "black",
+                  borderRadius: 9999,
+                }}
+              />
+              <div
+                style={{
+                  width: 5.66,
+                  height: 5.66,
+                  left: 0,
+                  top: 13.11,
+                  position: "absolute",
+                  background: "black",
+                  borderRadius: 9999,
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="box2">
+          <div
+            className="box2-event"
+            style={{
+              width: 296.76,
+              height: 84.79,
+              background: "white",
+              boxShadow: "0px 3px 8px rgba(0, 0, 0, 0.10)",
+              borderRadius: 6,
+            }}
+          >
+            <img src={img1} alt="" className="box2image" />
+            <div
+              className="box2content"
+              style={{
+                width: 127.41,
+                height: 85.04,
+                opacity: 0.7,
+                background: "white",
+                boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)",
+                borderTopLeftRadius: 7,
+                borderTopRightRadius: 7,
+                borderBottomRightRadius: 1,
+              }}
+            >
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 9.5,
+                  fontFamily: "Poppins",
+                  fontWeight: "500",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                Portfolio Presentation
+              </div>
+              <div
+                style={{
+                  opacity: 0.7,
+                  color: "#BC0F0F",
+                  fontSize: 10,
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                Tomorrow
+              </div>
+              <div>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    textTransform: "capitalize",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  9:00
+                </span>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  AM - 11:00 AM
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="box2-event"
+            style={{
+              width: 296.76,
+              height: 84.79,
+              background: "white",
+              boxShadow: "0px 3px 8px rgba(0, 0, 0, 0.10)",
+              borderRadius: 6,
+            }}
+          >
+            <img src={img2} alt="" className="box2image" />
+            <div
+              className="box2content"
+              style={{
+                width: 127.41,
+                height: 85.04,
+                opacity: 0.7,
+                background: "white",
+                boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)",
+                borderTopLeftRadius: 7,
+                borderTopRightRadius: 7,
+                borderBottomRightRadius: 1,
+              }}
+            >
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 9.5,
+                  fontFamily: "Poppins",
+                  fontWeight: "500",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                Group Discussion
+              </div>
+              <div
+                style={{
+                  opacity: 0.7,
+                  color: "#BC0F0F",
+                  fontSize: 10,
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                25th August, 2022
+              </div>
+              <div>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    textTransform: "capitalize",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  9:00
+                </span>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  AM - 10:00 AM
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="box2-event"
+            style={{
+              width: 296.76,
+              height: 84.79,
+              background: "white",
+              boxShadow: "0px 3px 8px rgba(0, 0, 0, 0.10)",
+              borderRadius: 6,
+            }}
+          >
+            <img src={img3} alt="" className="box2image" />
+            <div
+              className="box2content"
+              style={{
+                width: 127.41,
+                height: 85.04,
+                opacity: 0.7,
+                background: "white",
+                boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)",
+                borderTopLeftRadius: 7,
+                borderTopRightRadius: 7,
+                borderBottomRightRadius: 1,
+              }}
+            >
+              <div
+                style={{
+                  color: "black",
+                  fontSize: 9.5,
+                  fontFamily: "Poppins",
+                  fontWeight: "500",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                Mock Interview Session 1
+              </div>
+              <div
+                style={{
+                  opacity: 0.7,
+                  color: "#BC0F0F",
+                  fontSize: 10,
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  textTransform: "capitalize",
+                  wordWrap: "break-word",
+                }}
+              >
+                29th August, 2022
+              </div>
+              <div>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    textTransform: "capitalize",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  2:00
+                </span>
+                <span
+                  style={{
+                    color: "black",
+                    fontSize: 9.16,
+                    fontFamily: "Poppins",
+                    fontWeight: "600",
+                    wordWrap: "break-word",
+                  }}
+                >
+                  PM - 4:00 AM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

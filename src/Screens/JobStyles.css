@@ -12,6 +12,10 @@
   margin: 5px;
 }
 
+.job .jobs:hover {
+  cursor: pointer;
+}
+
 .job-names {
   display: flex;
   flex-direction: column;

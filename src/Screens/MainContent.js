@@ -360,7 +360,7 @@ const MainContent = () => {
         </div>
         <Jobs />
       </div>
-      <div className="right">
+      <div className="rights">
         <div
           className="box1"
           style={{

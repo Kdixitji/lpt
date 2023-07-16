@@ -5,11 +5,15 @@
 }
 
 .search {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
+.searchx {
+  display: flex;
+  flex-direction: row;
+}
 .search-logo {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 
@@ -27,7 +31,7 @@
   font-weight: 900;
   line-height: normal;
   letter-spacing: 0.17px;
-  margin-top: 32px;
+  margin-top: 22px;
 }
 .filter-head h1 {
   display: flex;
@@ -115,7 +119,8 @@ p {
 
 .right {
   display: flex;
-  margin-left: 200px;
+  margin-left: 225px;
+  flex-direction: row;
 }
 
 .sub-head {
@@ -123,7 +128,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 100px;
-  margin-left: -800px;
+  margin-left: -950px;
 }
 
 .sub-head p {
@@ -189,7 +194,7 @@ p {
 }
 
 .logout {
-  margin: 24px;
+  margin: 30px;
 }
 
 .jobsite {
@@ -214,8 +219,8 @@ p {
   border-radius: 8px;
   border: 1px solid var(--grayscale-divider, #dfe0eb);
   background: var(--grayscale-white, #fff);
-  margin-top: 150px;
-  margin-left: -800px;
+  margin-top: 160px;
+  margin-left: -725px;
 }
 
 .frame-heading {

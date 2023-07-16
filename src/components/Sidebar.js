@@ -10,7 +10,7 @@ const Sidebar = () => {
       <img src={logo} alt="logo" className="mlogo" />
       <div className="sidebar-menu">
         <hr
-          className="line"
+          className="lines"
           style={{ width: "48px", height: "2px", background: "#d3d0d0" }}
         />
         {/* archive icon */}

@@ -15,16 +15,18 @@ const Content = () => {
 
       {/* search box and logo */}
       <div className="search">
-        <BiSearch
-          className="search-logo"
-          size={25}
-          style={{ fill: "rgba(0, 0, 0, 0.28)" }}
-        />
-        <input
-          type="text"
-          placeholder="Search jobs and application ..."
-          className="search-input"
-        />
+        <div className="searchx">
+          <BiSearch
+            className="search-logo"
+            size={25}
+            style={{ fill: "rgba(0, 0, 0, 0.28)" }}
+          />
+          <input
+            type="text"
+            placeholder="Search jobs and application ..."
+            className="search-input"
+          />
+        </div>
         <div className="filter-head">
           <h1>Applications</h1>
           <h4>Filters</h4>
@@ -184,7 +186,7 @@ const Content = () => {
       </div>
       <div className="sub-head">
         <p className="result-p">
-          showing <span style={{ fontWeight: "900", color: "gray" }}>45</span>{" "}
+          showing <span style={{ fontWeight: "900", color: "gray" }}>45</span>
           results from 108 total
         </p>
         <BsPersonAdd size={24} color="white" className="add-logo" />

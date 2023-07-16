@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SidebarStyles.css";
 import logo from "../assets/logo.PNG";
 import image2 from "../assets/list.PNG";
@@ -7,7 +8,9 @@ import image3 from "../assets/clean.png";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img src={logo} alt="logo" className="mlogo" />
+      <Link to="/screen">
+        <img src={logo} alt="logo" className="mlogo" />
+      </Link>
       <div className="sidebar-menu">
         <hr
           className="lines"

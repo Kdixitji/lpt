@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ScontentStyles.css";
 import img1 from "./images/aviate logo.png";
 import img2 from "./images/Ellipse 35.png";
@@ -11,7 +12,9 @@ const Scontent = () => {
       <div className="screen">
         <div className="navbar">
           <div className="nav-logo">
-            <img src={img1} alt="" className="aviate" />
+            <Link to="/">
+              <img src={img1} alt="" className="aviate" />
+            </Link>
           </div>
           <form className="search-box">
             {/* search icon */}
